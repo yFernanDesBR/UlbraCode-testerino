@@ -1,0 +1,672 @@
+Repetição aula 11
+1. 
+começarepitir
+ var
+  med : real
+  adi, n, a : inteiro
+ inicio
+ a := 0 
+       repita
+	escreva ("Informe um número inteiro:")
+	leia (n)
+	adi=adi+n
+	a=a+1
+       ate a=10
+   med=adi/a
+   escreva ("a soma é igual a:", adi)
+   escreva ("a media é igual a:", med)
+fim
+
+2.
+cem
+ var
+  n, soma, min, max : inteiro
+ inicio
+  soma=0
+  min = 100
+  max = 0
+     enquanto soma<>100 
+      escreva ("Informe um número:")
+      leia (n)
+      soma=soma+n
+       se n>max entao
+	max=n
+       fimse
+	se n<min entao
+	 min=n
+        fimse
+     fimenquanto
+	  escreva ("O maior valor lido é:", max)
+	  escreva ("O menor valor lido é:", min)
+fim
+
+
+
+3.
+cemou0
+ var
+  n, soma, min, max
+ inicio
+  soma=0
+  min = 100
+  max = 0
+     enquanto (soma<>100) ou (n<>0)
+      escreva ("Informe um número:")
+      leia (n)
+      soma=soma+n
+       se n>max entao
+	max=n
+       fimse
+	se n<min entao
+	 min=n
+        fimse
+     fimenquanto
+	  escreva ("O maior número é:", max)
+	  escreva ("O menor número é:", min)
+fim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aula 09
+
+
+1) entreounao
+entrada
+var
+inteiro : n
+inicio
+escreva ("Informe seu número")
+leia (n)
+ se (n>100) e (n<1000) então
+ 	escreva ("Este número está na faixa entre 100 e 1000")
+ senao
+	escreva ("Este número não está na faixa entre 100 e 1000")
+ fimse
+fim
+
+
+
+
+2) salario
+entrada
+var
+inteiro : 1, 2, outro, salario
+inicio
+escreva ("Responda com sim e não as perguntas")
+escreva ("Você é técnico?")
+leia (1)
+escreva ("Você é gerente?")
+leia (2)
+escreva ("Você tem outro cargo?")
+leia (outro)
+escreva ("Informe seu salário:")
+leia (salario)
+ se (1=sim) entao
+	escreva (salario+50%)
+  se (2=sim) entao
+	 escreva (salario+30%)
+   se (outro=sim) entao
+	   escreva (salario+20%)
+ fimse
+  fimse
+   fimse
+fim
+
+
+
+3) Dobroumetade
+entrada
+var
+inteiro : n
+inicio
+escreva ("Informe um número:")
+leia (n)
+ se (n>30) entao
+	escreva (n/2)
+ senao 
+	escreva (n*2)
+ fimse
+fim
+
+
+
+
+4) numeros
+entrada
+var
+inteiro : n, n1, n2 
+real : soma
+inicio
+escreva ("Informe um número")
+leia (n)
+escreva ("Informe outro número")
+leia (n1)
+escreva ("Informe mais um número")
+leia (n2)
+soma = (n+n1+n2)
+ se (soma>50) entao
+	escreva ("A soma dos 3 números é:" soma)
+ fimse
+fim
+
+
+5) numeros2
+entrada
+var
+inteiro : n, n2
+real : soma
+inicio
+escreva ("Informe o primeiro número")
+leia (n)
+escreva ("Informe o segundo número")
+leia (n2)
+soma = (n+n2)
+ se (soma>20) então
+	escreva ("O resultado dos seus números é:", soma+8)
+ fimse
+  se (soma<=20) entao
+	 escreva ("O resultado dos seus números é:", soma-5)
+  fimse
+fim
+
+
+
+6) naturalidade
+entrada
+var
+caracter : natural
+inicio
+escreva ("Informe sua naturalidade com as iniciais de seu estado sendo R para Rio Grande do Sul, S para Santa Cataria e P para Paraná")
+leia (natural)
+ se (natural=R) entao
+	escreva ("Gaúcho")
+ se (natural=S) entao
+	 escreva ("Catarinense")
+ se (natural=P)
+	  escreva ("Paranaense")
+ senao
+	   escreva ("Outros estados")
+ fimse
+fim
+
+
+
+
+7)Percurso
+entrada
+var
+inteiro : vj, tc
+real : ce
+inicio
+escreva ("Quantos quilômetros tem sua viajem?")
+leia (vj)
+escreva ("Qual seu tipo de carro?")
+leia (tc)
+ se (tc=C) entao
+ce = (vj/12)
+	escreva ("O combústivel estimado para a viajem é:", ce)
+ se (tc=B) entao
+ce = (vj/9)
+	 escreva ("O combústivel estimado para a viajem é:", ce)
+ senao
+ce = (vj/8)
+ 	  escreva ("O combústivel estimado para a viajem é:", ce)
+ fimse
+fim
+
+
+
+8) Senha
+entrada
+var
+caracter : senha
+inicio
+escreva ("Informe a senha")
+leia (senha)
+ se (senha<>1234) entao
+	escreva ("ACESSO NEGADO")
+ senao
+	escreva ("ACESSO PERMITIDO")
+ fimse
+fim
+
+
+
+
+
+9) tacaro
+entrada
+var
+real : total
+inteiro : nm1
+constante
+m = 1,30
+total = nm1*m
+inicio
+escreva ("Informe o número de maçãs comprada")
+leia (nm1)
+ se (nm1<12) entao
+	escreva ("O total que deve ser pago é:", total)
+ senao
+m = 1 
+	escreva ("O total que deve ser pago é:", total)
+ fimse
+fim
+
+
+
+10) Saldinho
+entrada
+var
+real : sal, deb, cred
+inteiro : n
+constante
+saltt= sal-deb+cred
+inicio
+escreva ("Informe o número do cliente")
+leia (n)
+escreva ("Informe o saldo do cliente")
+leia (sal)
+escreva ("Informe o crédito do cliente")
+leia (cred)
+escreva ("O saldo atual do cliente é:", saltt)
+ se (saltt>=0) entao
+	escreva ("Saldo Positivo")
+ senao
+	escreva ("Saldo Negatico")
+ fimse
+fim
+
+
+
+
+11)estoque
+entrada
+var
+real : qatual
+inteiro : qmax, qmin
+constante 
+media = ((qmax+qmin)/2)
+inicio
+escreva ("Informe a quantidade atual em estoque")
+leia (qatual)
+escreva ("Informe a quantidade máxima em estoque")
+leia (qmax)
+escreva ("Informe a quantidade mínima em estoque")
+leia (qmin)
+escreva ("A quantidade media é:", media)
+ se (qatual>=media) entao
+	escreva ("Não efetuar compra")
+ senao
+	escreva ("Efetuar compra")
+ fimse
+fim
+
+
+
+aula 8
+
+
+
+
+1) Numm
+entrada
+var
+inteiro : a1, b2
+real : Soma
+inicio
+escreva ("Informe o número A")
+leia (a1)
+escreva ("Informe o número B")
+leia (b2)
+ se (a1>b2) então
+ 	escreva (a1+100)
+ senao 
+ 	escreva (b2+100)
+ fimse 
+fim 
+
+
+2) Demenor
+entrada
+var
+inteiro : idade
+inicio
+escreva ("Informe sua idade")
+leia (idade)
+ se (idade>=18) entao
+ 	escreva ("Maior de idade:", idade)
+ senao
+ 	escreva ("Menor de idade:", idade)
+ fimse
+fim
+
+
+3) diferenciado
+entrada
+var
+inteiro : n1, n2
+inicio
+escreva ("Informe o primeiro número")
+leia (n1)
+escreva ("Informe o segundo número")
+leia (n2)
+ se (n1>n2) entao
+ 	escreva (n1-n2) 
+ senao
+ 	escreva (n2-n1)
+ fimse
+fim
+
+
+
+
+4) PPIN
+entrada
+inteiro : n
+inicio
+escreva ("Informe seu número")
+leia (n)
+ se (nMOD2=0) então
+ 	escreva ("Número par")
+ senao
+ 	escreva ("Número ímpar")
+  se (n<0) entao
+  	 escreva ("Número negativo")
+  senao	
+  	 escreva ("Número positivo")
+ fimse
+  fimse
+fim
+
+
+
+5) Igualzinho
+entrada
+var
+inteiro : n1, n2
+inicio
+escreva ("Informe o primeiro número")
+leia (n1)
+escreva ("Informe o segundo número")
+leia (n2)
+ se (n1=n2) entao
+ 	escreva ("NÚMEROS IGUAIS")
+ fimse
+  se (n1>n2) entao
+  	 escreva (n1)
+  senao 
+	 escreva (n2)
+  fimse
+fim
+
+
+
+6) Sesesese
+entrada
+var
+inteiro : NUM1, NUM2
+inicio
+escreva ("Informe o primeiro número")
+leia (NUM1)
+escreva ("Informe o segundo número")
+leia (NUM2)
+ se (NUM1>NUM2) entao
+	escreva (NUM1+NUM2)
+ senao
+	escreva (NUM2-NUM1)
+ fimse
+fim
+
+
+7) Multounem
+entrada
+var
+inteiro : n1, n2
+inicio
+escreva ("Informe seu primeiro número")
+leia (n1)
+escreva ("Informe seu segundo número")
+leia (n2)
+ se (n1MOD2=0) entao
+	escreva ("É multiplo de 2", n1)
+ senao 
+	escreva ("Não é multiplo de 2", n1)
+ fimse
+  se (n2MOD2=0) entao
+	 escreva ("É multiplo de 2", n2)
+  senao 
+	 escreva ("Não é multiplo de 2", n2)
+  fimse
+fim
+
+
+
+8) Pesadaaoooo
+entrada
+var
+real : h, pesoi
+caracter : sexo
+inicio
+escreva ("Informe seu sexo (M/F):")
+leia (sexo)
+escreva ("Informe sua altura:")
+leia (h)
+ se (sexo=M) entao 
+pesoi=(72,7*h) - 58
+	escreva ("Seu peso ideal é:" pesoi)
+ senao
+pesoi = (62,1*h) - 44,7
+	escreva ("Seu peso ideal é:" pesoi)
+ fimse
+fim
+
+
+
+9) maiorzinho
+entrada
+var
+inteiro : a, b, c
+inicio
+escreva ("Informe o primeiro número")
+leia (a)
+escreva ("Informe o segundo número")
+leia (b)
+escreva ("Informe o terceiro número")
+leia (c)
+ se (a>b) e (a>c) entao
+ 	escreva ("O maior número é:", a)
+ fimse
+  se (b>a) e (b>c) entao
+ 	 escreva ("O maior número é:", b)
+  fimse
+   se (c>a) e (c>b) entao
+ 	   escreva ("O maior número é:", c)
+   fimse
+fim
+
+
+
+
+10) Sifufu
+entrada
+var
+inteiro : n1
+real : saldo
+inicio
+escreva ("Qual o número da sua conta bancária?")
+leia (n1)
+escreva ("Informe seu saldo:")
+leia (saldo)
+ se (n1<0) entao
+ 	escreva ("CONTA ESTOURADA")
+ senao 
+	escreva ("CONTA NORMAL")
+ fimse
+fim
+
+
+
+
+
+11) Hostel
+entrada
+var
+real : total
+inteiro : nd
+constantes
+day = 50
+inicio
+escreva ("Quantos dias você se hospedou?")
+leia (nd)
+ se (nd<15) entao
+total  = (nd*day) + (nd*1,5)
+	escreva ("O total que deve ser pago é:", total)
+ fimse
+  se (nd=15) entao
+total = (nd*day) + (nd*1)
+	 escreva ("O total que deve ser pago é:", total)
+  fimse
+   se (nd>15) entao
+total = (nd*day) + (nd*0,5)
+	  escreva (" O total que de ver pago é:", total)
+   fimse
+fim
+
+
+
+
+12) Positiva
+entrada
+var
+inteiro : n
+inicio
+escreva ("Informe um número")
+leia (n)
+ se (n>=0) entao
+	escreva (n)
+ senao
+n = n*(-1)
+	escreva (n)
+ fimse
+fim
+
+
+
+
+13) media
+entrada
+var
+inteiro : cod
+real : a, b, c, media
+inicio
+escreva ("O código do aluno")
+leia (cod)
+escreva ("A primeira nota")
+leia (a)
+escreva ("A segundo nota")
+leia (b)
+escreva ("A terceira nota")
+leia (c)
+ se (a>b) e (a>c) entao
+media = ((4*a + 3*b + 3*c)/10)
+ fimse
+  se (b>a) e (b>c)
+media = ((4*b + 3*a + 3*c)/10)
+  fimse
+   se (c>a) e (c>b)
+media = ((4*c + 3*a + 3*b)/10)
+   fimse
+    se (media>=5) entao
+	    escreva ("APROVADO")
+    senao 
+	    escreva ("REPROVADO")
+    fimse
+fim
+
+
+
+
+14) Descontinho
+real valtotal 
+caracter codF, codE, codC
+escreva("informe seu código de cliente")
+leia(codF)
+leia(codE)
+leia(codC)
+ se (codF valtotal-5%)
+ senao(codE valtotal-10%)
+	escreva("informe o total da compra")
+ fimse
+fim
+
+
+
+
+
+
+15) três_angulo
+real trix, triy, triz
+escreva("informe a medida X")
+leia(trix)
+escreva("informe a medida Y")
+leia(triy)
+escreva("informe a medida Z")
+leia(triz)
+ se (trix=triy=triz) 
+	escreva("triangulo equilátero")
+ se (trix=triy/=triz)  
+	escreva("triangulo isósceles")
+ se (trix=triz/=triy) 
+	escreva("triangulo isósceles")
+ se (triy=triz/=trix) 
+	escreva ("triangulo isósceles")
+ se (trix/=triy/=triz) 
+	escreva ("triangulo escaleno")
+ senao escreva("O comprimento de cada lado do triangulo e nebir do que a somam dos comprimentos dos outros dois lados")
+ fimse
+fim
+
+
+
+16) caracter cod, masc, femin
+inteiro tempt
+real sal, saltotal
+escreva ("informe o código do funcionário")
+leia(cod)
+escreva("informe o sexo do funcionario(a) (m ou f)") 
+ se (m) leia(masc)
+ senao leia(femin)
+escreva ("informe o tempo na empresa (em anos)")
+leia (tempt)
+escreva ("informe se salário")
+leia(sal)
+  se (tempt>=15)
+saltotal=sal+20%
+   se (temp<=10)
+saltotal=sal+10%
+ senao
+saltotal=sal+100
+escreva("seu salario com bonus é:")saltotal
+ fimse
+  fimse
+fim
