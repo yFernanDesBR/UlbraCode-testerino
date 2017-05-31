@@ -1,0 +1,10 @@
+ls:lista diretorios e arquivos de uma pasta
+cd .. é para voltar um nível de diretório ou pasta
+cd e o nome na pasta, entra na pasta
+clear: limpar tela
+mkdir: para criar pastas
+git add: adicionar as modificações na area de commit
+git clone: para copiar os arquivos
+git status: para ver o estado do codigo
+git commit -m "mensagem do commit":esse comando etiqueta os arquivos para enviar ao repositório remoto
+git push: envia os commits para o repositório remoto
