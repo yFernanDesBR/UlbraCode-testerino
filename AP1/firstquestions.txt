@@ -1,0 +1,257 @@
+1.Algoritmo_salário
+
+Variáveis
+
+Inteiro n_f e h_t
+
+Real salario e s_horas
+
+Inicio
+
+Escreva (“número do funcionário”, n_f)
+
+Leia (n_f)
+
+Escreva (“horas de trabalho”, h_t)
+
+Leia (h_t)
+
+Escreva (“valor recebido por hora”, s_horas)
+
+Leia (s_horas)
+
+salario = s_horas * 30
+
+escreva (“o salário do funcionário é :”, salario)
+
+fim
+
+2.Algoritmo_pecas
+
+Váriaveis
+
+Caracter : cod1 e cod2
+
+Inteiro : venda1 e venda2
+
+Real : valor1, valor2, soma1, soma2 e somatotal
+
+Inicio
+
+Escreva (“informe o código, o número de vendas e o valor unitário da peça 1”)
+
+Leia (cod1)
+
+Leia (venda1)
+
+Leia (valor1)
+
+soma1 = valor1*venda1
+
+escreva (“informe o código, o número de vendas e o valor unitário da peça 2”)
+
+leia (cod2)
+
+leia (venda2)
+
+leia (valor2)
+
+soma2 = valor2*venda2
+
+somatotal = soma1+soma2
+
+escreva (“o valor total da compra foi :”, somatotal)
+
+fim
+
+3.Valor_X
+
+Var
+
+Val_1, val_2
+
+inicio
+
+Escreva (“informe o valor 1”)
+
+Leia (val_1)
+
+Escreva (“informe o valor 2”)
+
+Leia (val_2)
+
+(val_1+val_2)
+
+Escreva (“o valor de X é”, val_1+val_2)
+
+Fim.
+
+4.ASDM
+
+Var
+
+inteiro: val_a, val_b;
+
+inicio
+
+Escreva(“informe valor de A”) ;
+
+Leia(val_A);
+
+Escreva(“informe valor de B”);
+
+Leia (val_B);
+
+Escreva (“o valor de soma é:”, val_a+val_b);
+
+Escreva (“o valor de subtração é:”, val_a-val_b);
+
+Escreva (“o valor de multiplicação é:”, val_a*val_b);
+
+Escreva (“o valor de divisão é:”, val_a/val_b);
+
+Fim.
+
+5.Media_aritmetica
+
+Var
+
+Real: val_1, val_2, val_3, media
+
+Escreva (“informe o valor 1”);
+
+Leia (val_1);
+
+Escreva (“informe o valor 2”);
+
+Leia (val_2);
+
+Escreva (“informe o valor 3”);
+
+Leia (val_3);
+
+Media = (val_1+val_2+val_3)/3;
+
+Escreva (“a media é:”, media);
+
+Fim.
+
+6.Área_triangulo
+
+Var
+
+Real: Area, val_base, Val_altura
+
+inicio
+
+Escreva (“informe o valor da altura”)
+
+Leia: (val_altura)
+
+Escreva (“informe o valor da base”)
+
+Leia: (val_base)
+
+Área = (val_base*val_altura)/2
+
+Escreva (“o valor da área é:, Área)
+
+7.Quadrado
+
+Var
+
+Inteiro: num_1, quadrado;
+
+Inicio ;
+
+Escreva (“informe o valor do numero”);
+
+Leia(num_1);
+
+Quadrado = Num_1*num_1;
+
+Escreva (“o quadrado do numero é:”, quadrado);
+
+Fim.
+
+8.Custo_dos_tuelhos
+
+Var
+
+Inteiros : nro_coelhos
+
+Real : vCusto
+
+inicio
+
+escreva (“Informe o número de coelhos.”)
+
+leia (nro_coelhos)
+
+vCusto := nro_coelhos/18 + 10
+
+escreva(“O custo de criação é: “, vCusto)
+
+fim.
+
+9.Lucro
+
+Var
+
+Real : luc1
+
+Inteiros : prec1 e venda1
+
+Inicio
+
+luc1 = venda1-prec1
+
+escreva (“seu lucro foi de:”, luc1)
+
+fim
+
+10.Resto
+
+Var
+
+Inteiro : N1 e N2
+
+Real : Resto
+
+Inicio
+
+Escreva (“Informe o primeiro número”)
+
+Leia (N1)
+
+Escreva (“informe o segundo número”)
+
+Leia (N2)
+
+Resto = N1MODN2
+
+Escreva (“o valor final é:”, Resto)
+
+Fim
+
+11.divisão inteira
+
+Var
+
+Inteiro : N3 e N4
+
+Real : calc1
+
+Escreva (“informe o primeiro número”)
+
+Leia (N3)
+
+Escreva (“informe o segundo número”)
+
+Leia (N4)
+
+calc1 = N3DIVN4
+
+Escreva (“o valor final é:”, calc1)
+
+fim
