@@ -1,0 +1,75 @@
+
+  LINGUAGEM C FINALLY
+
+	COMANDO DE SAIDA DE DADOS
+printf ("Meu primeiro programa em C \n Autor: Fernandes");
+printf ("\n Inteiro: %i", x);
+printf ("\n Real: %.2f", y);
+printf ("\n Inteiro: %i \n Real: %.2f", x,y)
+	%f, %i... depende da variavel se é inteiro, real...
+
+
+
+
+	TIPOS DE DADOS
+int x;     (inteiro)  | %d e %i
+float y;    (real)    | %f
+char resp;     (caracter)   | %c
+
+C é uma linguagem "Case sensitive" diferencia maiúsculo e minúsculo
+
+
+	COMANDO DE ENTRADA DE DADOS
+scanf ("%i", &x);   | PRECISA IDENTIFICAR QUAL VARIAVEL(%i) e tbm colocar o ''&''
+scanf ("%f", &y);
+scanf ("%c", &resp);
+
+		ALGORITMO SIMPLES
+
+#include<stdio.h>  | INICIO DO ALGORITMO
+#include<conio.h>  | INICIO DO ALGORITMO
+main ( )
+{
+ float n1, n2, media;
+	printf ("Primeira nota:  ");
+	scanf ("%f", &n1);
+	printf ("\nSegunda nota: ");
+	scanf ("%f", &n2);
+	media=(n1+n2*2)/3;
+	printf ("\nmedia: %.2f", media);
+	getche( );
+}
+
+
+         OPERADOS RELACIONAIS
+>= maior ou igual
+<= menor ou igual
+== igual
+> maior
+< menor
+!= diferente
+
+
+
+
+        OPERADORES LÓGICOS
+ || = ou (disjunção)
+ && = e (conjunção)
+ !  = negação
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
