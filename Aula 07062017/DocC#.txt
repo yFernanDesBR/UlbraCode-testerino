@@ -1,0 +1,21 @@
+	COMPILADOR
+converter uma linguagem de auto nivel para linguagem de máquina
+	LINGUAGEM INTERMEDIARIA
+Pré compilação, JVM é uma que pertece ao JAVA
+	DOT FRAMEWORK
+Linguagem de auto nível, intermediaria com C#
+	C#
+Multi-plataforma
+
+
+
+DIFERENÇA DE INTERPRETADOR E COMPILADOR (PESQUISAR)
+
+LINGUAGENS DE AUTO NIVEL, SÃO FORTEMENTE TIPADAS
+
+
+	OPERADORES LOGICOS
+== | Igual
+!= | Diferente
+Resto é igual
+	
