@@ -1,0 +1,72 @@
+ LINGUAGEM C
+
+ REPETIÇÃO
+
+
+
+	While (condição)
+	 {
+	   comando1;
+	   .
+	   .
+	   .
+	   Comandon;
+	 }
+
+
+
+	INCREMENTO
+X ++; (X=X+1);
+
+
+
+	do{
+	  comando1;
+	  .
+	  .
+	  .
+	  comandon;
+	}while(condição);
+
+		repete enquanto condição for verdadeira.
+
+
+
+
+
+
+
+	{
+	 int x, num;
+	  for (x=1;x<=10;x++)
+	  {
+		printf("\nDigite um número:");
+		scanf("%i", &num);
+		if(num==0)
+			printf("\nZero!");
+		else
+		 if (num%==0)	
+			printf("\nNúmero par!");
+		 else
+			printf("\nNúmero impar!");
+	  }
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
