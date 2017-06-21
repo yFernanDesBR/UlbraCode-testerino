@@ -151,8 +151,9 @@ class Trab
                             } else{
                                 Console.WriteLine("Obeso! IMC: {0:00.00}", imc);
                             }
-                        } else if(s == "f" || s == "F")
-                        {
+                       } 
+                    else if(s == "f" || s == "F")
+                    {
                             if(imc < 19.1){
                                 Console.WriteLine("Abaixo do Peso! IMC: {0:00.00}", imc);
                             } else if(imc < 25.8){
@@ -164,7 +165,10 @@ class Trab
                             } else{
                                 Console.WriteLine("Obeso! IMC: {0:00.00}", imc);
                             }
-                  }
+                    }
+                    else{
+                        Console.WriteLine("Letra errada, informe novamente, [M] ou [F]: ");
+                    }
                 Console.WriteLine("Clique no enter para voltar");
                 Console.ReadLine();
 
